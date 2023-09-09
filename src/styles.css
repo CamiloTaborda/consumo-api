@@ -1,0 +1,152 @@
+body {
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   margin: 0;
+   padding: 0;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#randomMichis {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cat1, .cat2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#img1, #img2 {
+    width: 250px;
+    height: 250px;
+    border-radius: 8px;
+}
+
+#btn1, #btn2 {
+   margin-top:  20px;
+   width: 100%;
+   height: 40px;
+   border-radius: 8px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   border: 1px solid papayawhip;
+   background-color: papayawhip;
+   cursor: pointer;
+}
+
+#btn1:hover, #btn2:hover {
+    font-size: medium;
+}
+
+.btn-recargar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnR {
+    margin-top:  20px;
+    width: 20%;
+    height: 40px;
+    border-radius: 8px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1px solid papayawhip;
+    background-color: papayawhip;
+    cursor: pointer; 
+}
+
+.btnR:hover, .btn-delete:hover {
+    font-size: medium;
+}
+
+#favoritesMichis {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.michis-fav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px; 
+}
+
+.btn-delete {
+    margin-top:  20px;
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1px solid papayawhip;
+    background-color: papayawhip;
+    cursor: pointer; 
+}
+
+#up-loading-michi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#up-loading-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#file {
+    margin-top: 20px;
+    width: 50%;
+    height: 40px;
+    border-radius: 8px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1px solid papayawhip;
+    background-color: papayawhip;
+    cursor: pointer;
+}
+
+#button-file {
+    margin-top: 20px;
+    width: 50%;
+    height: 40px;
+    border-radius: 8px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1px solid papayawhip;
+    background-color: papayawhip;
+    cursor: pointer;
+}
+
+#button-file:hover {
+    font-size: medium;
+}
+
+#favoritesMichis {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+
+.michis-fav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;   
+}
+
+.michis-fav img {
+    width: 250px;
+    height: 250px;
+    border-radius: 8px; 
+}
+
+
